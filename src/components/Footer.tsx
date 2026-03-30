@@ -6,8 +6,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-6 md:mb-0">
-            <Plane className="h-8 w-8 text-accent mr-2" />
-            <span className="text-2xl font-bold text-white tracking-tight">Portable Rosssy World Travels</span>
+            <img src="/logo.jpg" alt="Logo" className="h-10 w-10 rounded-full object-cover border border-accent mr-3" />
+            <span className="text-xl font-bold text-white tracking-tight">Portable Rossy World Travels</span>
           </div>
 
           <div className="flex space-x-6 text-sm text-gray-300">
@@ -20,7 +20,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Portable Rosssy World Travels. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Portable Rossy World Travels Limited. All rights reserved.</p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors">Terms of Service</a>

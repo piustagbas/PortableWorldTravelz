@@ -33,13 +33,13 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
-            <Plane className={`h-8 w-8 ${isScrolled ? "text-primary" : "text-white"}`} />
+            <img src="/logo.jpg" alt="Logo" className="h-10 w-10 md:h-12 md:w-12 rounded-full object-cover border-2 border-accent" />
             <span
-              className={`ml-2 text-2xl font-bold tracking-tight ${
+              className={`ml-3 text-lg md:text-xl font-bold tracking-tight ${
                 isScrolled ? "text-primary" : "text-white"
               }`}
             >
-              Portable Rosssy World Travels
+              Portable Rossy World Travels
             </span>
           </div>
           

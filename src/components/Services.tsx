@@ -7,23 +7,48 @@ export default function Services() {
   const services = [
     {
       icon: <PlaneTakeoff className="h-10 w-10 text-white" />,
-      title: "Flight Booking",
-      description: "Get the best deals on flights worldwide with our airline partners.",
-    },
-    {
-      icon: <Hotel className="h-10 w-10 text-white" />,
-      title: "Hotel Reservation",
-      description: "Luxurious stays at affordable prices in premier destinations.",
-    },
-    {
-      icon: <Map className="h-10 w-10 text-white" />,
-      title: "Guided Tours",
-      description: "Immersive local experiences with professional and knowledgeable guides.",
+      title: "Flight Ticket",
+      description: "Best deals on flights worldwide.",
     },
     {
       icon: <FileText className="h-10 w-10 text-white" />,
-      title: "Visa Assistance",
-      description: "Hassle-free visa processing and travel documentation support.",
+      title: "Int'l passport procurement",
+      description: "Smooth processing for your international passport.",
+    },
+    {
+      icon: <FileText className="h-10 w-10 text-white" />,
+      title: "Visa Assistance Services",
+      description: "Hassle-free visa processing and documentation.",
+    },
+    {
+      icon: <Hotel className="h-10 w-10 text-white" />,
+      title: "Hotel Booking",
+      description: "Luxurious stays at affordable prices globally.",
+    },
+    {
+      icon: <Map className="h-10 w-10 text-white" />,
+      title: "Honeymoon Package",
+      description: "Romantic and unforgettable honeymoon experiences.",
+    },
+    {
+      icon: <Map className="h-10 w-10 text-white" />,
+      title: "Tour packages",
+      description: "Immersive local experiences with professional guides.",
+    },
+    {
+      icon: <FileText className="h-10 w-10 text-white" />,
+      title: "Study Abroad",
+      description: "Expert guidance for your international education.",
+    },
+    {
+      icon: <PlaneTakeoff className="h-10 w-10 text-white" />,
+      title: "Travel insurance",
+      description: "Comprehensive coverage for your peace of mind.",
+    },
+    {
+      icon: <FileText className="h-10 w-10 text-white" />,
+      title: "NIN etc.",
+      description: "Support for National Identification Number and more.",
     },
   ];
 

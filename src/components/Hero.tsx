@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 
 export default function Hero() {
-  const text = "Explore the World with Us";
+  const text = "Welcome to Portable Rossy World Travels Limited";
   const words = text.split(" ");
 
   return (
@@ -22,7 +22,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-20 text-center px-4 w-full max-w-5xl mx-auto flex flex-col items-center">
         <motion.h1
-          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white tracking-tight mb-6 flex flex-wrap justify-center gap-x-3 sm:gap-x-4"
+          className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white tracking-tight mb-6 flex flex-wrap justify-center gap-x-2 sm:gap-x-3"
         >
           {words.map((word, wordIndex) => (
             <div key={wordIndex} className="flex">
@@ -51,7 +51,7 @@ export default function Hero() {
           transition={{ duration: 1, delay: 1.5 }}
           className="text-base sm:text-lg md:text-2xl text-white/90 mb-10 max-w-2xl px-4"
         >
-          Discover premium travel experiences tailored just for you. From pristine beaches to historic cities, your next adventure starts here.
+          We are delighted to have you here. Let us know how we can be of help.
         </motion.p>
         
         <motion.div

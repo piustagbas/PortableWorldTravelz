@@ -9,37 +9,37 @@ export default function Destinations() {
       title: "Santorini, Greece",
       description: "Iconic blue domes and breathtaking sunsets over the Aegean Sea.",
       image: "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?q=80&w=1000&auto=format&fit=crop",
-      price: "From $1,200",
+      price: "From $2,850",
     },
     {
       title: "Bali, Indonesia",
       description: "Lush rice terraces, ancient temples, and vibrant culture.",
       image: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=1000&auto=format&fit=crop",
-      price: "From $850",
+      price: "From $1,450",
     },
     {
       title: "Paris, France",
       description: "The city of love, light, and world-class culinary experiences.",
       image: "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=1000&auto=format&fit=crop",
-      price: "From $1,500",
+      price: "From $2,100",
     },
     {
       title: "Maldives",
       description: "Crystal clear waters and luxurious overwater bungalows.",
       image: "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=1000&auto=format&fit=crop",
-      price: "From $2,100",
+      price: "From $3,200",
     },
     {
       title: "Kyoto, Japan",
       description: "Historic shrines, bamboo forests, and traditional tea houses.",
       image: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1000&auto=format&fit=crop",
-      price: "From $1,800",
+      price: "From $2,600",
     },
     {
       title: "Dubai, UAE",
       description: "Futuristic architecture, luxury shopping, and desert safaris.",
       image: "https://images.unsplash.com/photo-1512453979436-5a5336ce39ce?q=80&w=1000&auto=format&fit=crop",
-      price: "From $1,100",
+      price: "From $1,250",
     },
   ];
 

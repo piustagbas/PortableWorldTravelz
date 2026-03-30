@@ -14,7 +14,7 @@ export default function Contact() {
       title: "WhatsApp",
       description: "Chat with us instantly",
       action: "Chat Now",
-      href: "https://wa.me/2340000000000",
+      href: "https://wa.me/2348037116571",
       bgClass: "hover:bg-[#25D366]/10",
     },
     {
@@ -22,7 +22,7 @@ export default function Contact() {
       title: "Email",
       description: "Send us a detailed inquiry",
       action: "Email Us",
-      href: "mailto:example@gmail.com",
+      href: "mailto:rossyworldtravels85@gmail.com",
       bgClass: "hover:bg-accent-orange/10",
     },
     {
@@ -30,7 +30,7 @@ export default function Contact() {
       title: "Phone",
       description: "Call our support team",
       action: "Call Us",
-      href: "tel:+2340000000000",
+      href: "tel:+2348037116571",
       bgClass: "hover:bg-accent/10",
     },
   ];
@@ -42,8 +42,13 @@ export default function Contact() {
           <span className="text-accent-orange font-bold uppercase tracking-wider">Reach Out</span>
           <h2 className="text-4xl font-extrabold mt-2 text-primary">Contact Us</h2>
           <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
-            Ready to plan your next great adventure? Get in touch with our team today and let's craft the perfect itinerary for you.
+            Ready to plan your next adventure? Get in touch with our team today and let's craft the perfect itinerary for you.
           </p>
+          <div className="mt-8 text-gray-700 bg-white p-6 rounded-2xl shadow-sm border border-gray-100 max-w-2xl mx-auto flex flex-col gap-3">
+            <p><strong>Office address:</strong> BLK B, shop D67, Army Operational Command Signal Barracks Mile 2, Mammy Market Plaza Suru Bus stop Off Ojo Road</p>
+            <p className="text-accent-orange font-medium mt-1">Our Working hours is 9am-5pm (Mon-Fri).</p>
+            <p className="text-sm">We only attend to enquiries during working hours. Physical consultations will incur a fee.</p>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
